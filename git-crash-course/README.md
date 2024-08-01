@@ -96,3 +96,18 @@ git add .
 git reset
 ```
 
+## Log
+
+git log will show recent git commits to the git tree.
+
+```sh
+git log
+```
+
+## Push
+
+When we want to push a repo to our remote origin 
+
+```sh
+git push
+```
