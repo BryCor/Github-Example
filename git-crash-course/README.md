@@ -43,7 +43,7 @@ git clone https://github.com/Bryan-Cortes/Github-Example.git
 When we want to commit code we can write git commit which will open up the commit edit message in the editor of choice. 
 
 ```sh
-git commit -m
+git commit -m " add a message without opening message CLI."
 ```
 
 ## Branches
@@ -63,13 +63,29 @@ git add .
 ```
 ## Status
 
-Git status shows you what files will or will not be comitted. 
-
+Git status shows you what files will or will not be comitted.
 
 ```sh
 git status
 ```
 
+## Gitconfig file 
+
+The gitconfig file is what stores your global configurations for git such as email, name, editor, and more
+
+SHowing the contents of our .gitconfig file.
+
+
+```sh
+git config --list
+```
+
+When you first install Git on a machine you are suppose to set up your name and email
+
+``` sh
+git config --global user. name "John Doe"
+git config --global user.email johndoe@example.com
+```
 ## Reset 
 
 Reset allows you to move Staged changes to be unstaged.
