@@ -75,6 +75,21 @@ git commit -m " add a message without opening message CLI."
 
 ## Branches
 
+List of branches
+```
+git branch
+```
+
+create a new branch 
+```
+git branch branch-name
+```
+
+Checkout the branch
+```
+git switch branch-name
+```
+
 ## Stashing
 
 ## Merging
