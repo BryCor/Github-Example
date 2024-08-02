@@ -36,6 +36,33 @@ cd /workspace/tmp
 git clone https://github.com/Bryan-Cortes/Github-Example.git
 ```
 
+> You'll need to genererate a Personal Access Token (PAT)
+https://github.com/settings/token
+
+You will use the PAT as your password when login in.
+
+- Give it access to contents of commits
+
+## SSH
+
+Open Terminal.
+
+Paste the text below, replacing the email used in the example with your GitHub email address.
+
+```
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+
+We can test our connection here:
+```sh
+ssh -T git@github.com
+```
+
+```sh
+git@github.com:Bryan-Cortes/Github-Example.git
+cd Github-Example
+```
 
 
 ## Commits
